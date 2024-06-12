@@ -12,11 +12,21 @@ Battery Pulse is architected to be cloud native, utilizing the principles of mod
 
 ### Extensible
 
-At the heart of Battery Pulse's design philosophy is extensibility. We understand that the needs of the battery community are diverse and ever-changing. Therefore, our platform is built to allow users to easily add new functionalities, integrate with existing systems, and customize workflows. Through a well-documented API and a modular design, developers can plug in new algorithms, connect to various data sources, and build custom applications that enhance their analytical capabilities. This makes Battery Pulse not just a tool but a versatile framework that grows with your requirements.
+At the heart of Battery Pulse's design philosophy is extensibility. We understand that the needs of the battery community are diverse and ever-changing. Therefore, our platform is built to allow users to easily add new functionalities, integrate with existing systems, and customize workflows. Through a modular design, developers can plug in new algorithms, connect to various data sources, and build custom applications that enhance their analytical capabilities. This makes Battery Pulse not just a tool but a versatile framework that grows with your requirements.
 
 ## Architecture
 
-tbd...
+### Distributed Data Processing
+Battery Pulse leverages a robust, distributed data architecture designed to handle both real-time and batch data processing efficiently. At the core of our data handling strategy is Apache Kafka, which serves as a high-throughput, fault-tolerant message broker. Kafka channels data from various sources, including battery management systems (BMS), programmable logic controllers (PLCs), and battery cyclers, ensuring that all data is harmonized across a unified schema. This setup not only streamlines data ingestion but also enhances our platform's ability to manage large volumes of diverse data seamlessly.
+
+### Scalable Data Storage and Analysis
+Our platform employs Apache Spark for both streaming and batch processing, enabling rapid data analysis and decision-making capabilities. Spark's engine allows Battery Pulse to process data at scale, whether you are running a small lab or a large operation. To support flexibility in data storage and accessibility, we integrate with multiple storage systems such as PostgreSQL and Delta Lake. This multi-storage approach allows users to choose the most suitable storage solution based on their specific performance, scalability, and durability needs.
+
+### Deployment and Operations
+Deployment of Battery Pulse is streamlined through the use of Helm charts and Kubernetes operators. The `SparkOperator` for Apache Spark and `Strimzi`, which provides a Kubernetes operator for Apache Kafka, facilitate the deployment, scaling, and management of our applications in a cloud-native environment, ensuring reliability and minimizing operational overhead. Additionally, our architecture supports the integration of an open-source dashboarding tool, Apache Superset, which provides users with powerful visualization capabilities. This optional layer can be replaced or augmented by any tool of choice, providing flexibility in how data is analyzed and presented.
+
+### Extensibility and Customization
+Recognizing the diverse and evolving needs of the battery technology community, Battery Pulse is designed with extensibility at its foundation. Users can easily develop and integrate new producers, add Spark applications, and extend the platform's core functionalities. This modular and plugin-based architecture not only facilitates customization but also ensures that our platform can adapt to future challenges and opportunities in the rapidly advancing field of battery technology.
 
 ## Contributing
 
