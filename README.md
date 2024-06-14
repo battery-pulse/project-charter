@@ -30,7 +30,7 @@ Recognizing the diverse and evolving needs of the battery technology community, 
 
 ## Contributing
 
-We welcome contributions from all members of the battery community. Whether you're a seasoned developer or a newcomer, your input is valuable to our mission. For detailed guidelines on how to contribute, please review our [Contributing Policy](https://github.com/battery-pulse/developer-guide).
+We welcome contributions from all members of the battery community. Whether you're a seasoned developer or a newcomer, your input is valuable to our mission. For detailed guidelines on how to contribute, please review our [developer guide](https://github.com/battery-pulse/developer-guide).
 
 Our contribution process is designed to be transparent and inclusive, ensuring that every contribution is recognized and that the project continues to grow and evolve in alignment with the needs of the community. Join us in shaping the future of renewable energy technology!
 
