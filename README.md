@@ -1,6 +1,6 @@
 # Project Charter
 
-Welcome to the Battery Pulse Project Charter, your gateway to advancing battery technology through collaborative innovation. Battery Pulse is a robust, cloud-native platform committed to open-source principles, designed to meet the needs of the global battery community. Our platform emphasizes scalability, extensibility, and universal accessibility, empowering users to seamlessly integrate and innovate within an ever-evolving landscape. Join us in shaping a sustainable future, one contribution at a time.
+Welcome to the Battery Pulse Project Charter, your gateway to advancing battery technology through collaborative innovation. Battery Pulse is a robust, cloud-native platform committed to open-source principles, designed to meet the needs of the global battery community. Join us in shaping a sustainable future, one contribution at a time.
 
 ## Core Principles
 
