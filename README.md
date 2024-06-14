@@ -14,7 +14,7 @@ Battery Pulse is architected to be cloud native, utilizing the principles of mod
 
 At the heart of Battery Pulse's design philosophy is extensibility. We understand that the needs of the battery community are diverse and ever-changing. Therefore, our platform is built to allow users to easily add new functionalities, integrate with existing systems, and customize workflows. Through a modular design, developers can plug in new algorithms, connect to various data sources, and build custom applications that enhance their analytical capabilities. This makes Battery Pulse not just a tool but a versatile framework that grows with your requirements.
 
-## Architecture
+## Software Architecture
 
 ### Distributed Data Processing
 Battery Pulse leverages a robust, distributed data architecture designed to handle both real-time and batch data processing efficiently. At the core of our system is Apache Kafka, which serves as a high-throughput, fault-tolerant message broker. Kafka ingests data from various sources, including battery management systems (BMS), programmable logic controllers (PLCs), and battery cyclers, ensuring that all data is harmonized across a unified schema. This setup not only streamlines data ingestion but also enhances our platform's ability to manage large volumes of diverse data seamlessly.
