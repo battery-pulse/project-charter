@@ -28,7 +28,7 @@ Our platform employs Apache Spark for both streaming and batch processing, enabl
 Deployment of Battery Pulse is streamlined through Kubernetes. We include several Helm charts that leverage open-source operators to facilitate the deployment, scaling, and management of our applications in a cloud-native environment, ensuring reliability and minimizing operational overhead. Organizations may also opt to deploy the applications in this project using other services. Numerous external companies provide services for managed instances of Kafka or managed compute for Spark applications.
 
 ### Extensibility and Customization
-Recognizing the diverse and evolving needs of the battery technology community, Battery Pulse is designed with extensibility at its foundation. Users can easily develop and integrate new producers, add Spark applications, and extend the platform's core functionalities. This modular and plugin-based architecture not only facilitates customization but also ensures that our platform can adapt to future challenges and opportunities in the rapidly advancing field of battery technology.
+Recognizing the diverse and evolving needs of the battery technology community, Battery Pulse is designed with extensibility at its foundation. Users can easily develop and integrate new producers, add Spark applications, and extend the platform's core functionalities. This modular architecture not only facilitates customization but also ensures that our platform can adapt to future challenges and opportunities in the rapidly advancing field of battery technology.
 
 ## Contributing
 
